@@ -122,7 +122,7 @@ public class Sjl {
     }
 
     /**
-     * Optional setting. Sets the formatting for the file name from the old log file. <br>
+     * Optional setting. Sets the formatting for the name of the old log file. <br>
      * The default is "dd-MM-yyyy_HH-mm-ss".
      *
      * @param dateFormat the new format
