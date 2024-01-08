@@ -42,7 +42,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create and push tag
         run: |
-          git config --global user.email "shreyaspatilg@gmail.com"
           git config --global user.name "$GITHUB_ACTOR"
           git tag -a $TAG -m "Release v$TAG"
           git push origin $TAG
